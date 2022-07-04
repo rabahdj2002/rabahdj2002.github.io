@@ -1,3 +1,4 @@
+<?php require_once "constants.php" ?>
 <!doctype html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Portfolio</title>
+	<title><?php echo $title ?></title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -27,8 +28,7 @@
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -36,8 +36,8 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item"><a class="nav-link" href="tel:+213558605921">+213-558-605-921</a></li>
-							<li class="nav-item"><a class="nav-link" href="mailto:rabahwork@gmail.com">Rabahwork@gmail.com</a></li>
+							<li class="nav-item"><a class="nav-link" href="tel:+213558605921"><?php echo $phone ?></a></li>
+							<li class="nav-item"><a class="nav-link" href="mailto:rabahwork@gmail.com"><?php echo $email ?></a></li>
 						</ul>
 					</div>
 				</div>
@@ -53,12 +53,12 @@
 				<div class="row">
 					<div class="col-lg-7">
 						<div class="banner_content">
-							<h3 class="text-uppercase">Hell0</h3>
-							<h1 class="text-uppercase">I am Rabah</h1>
-							<h5 class="text-uppercase">Python/Django Back-end Developer</h5>
+							<h3 class="text-uppercase">Hello</h3>
+							<h1 class="text-uppercase">I am <?php echo $firstName ?></h1>
+							<h5 class="text-uppercase"><?php echo $positionTitle ?></h5>
 							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="https://www.linkedin.com/in/rabahdjebbes/" target="_blank"><span>Hire Me</span></a>
-								<a class="primary_btn tr-bg" href="https://rabahdjebbes.me/resume.pdf" target="_blank"><span>Get CV</span></a>
+								<a class="primary_btn" href="<?php echo $linkedin ?>" target="_blank"><span>Linkedine</span></a>
+								<a class="primary_btn tr-bg" href="https://rabahdjebbes.me/resume.pdf" target="_blank"><span>Download Resume</span></a>
 							</div>
 						</div>
 					</div>
