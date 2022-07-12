@@ -7,5 +7,5 @@ $firstName = "Rabah";
 $lastName = "Djebbes";
 $positionTitle = "PYTHON/DJANGO BACK-END DEVELOPER";
 $linkedin = "https://www.linkedin.com/in/rabahdjebbes/";
-
+$yearsOfExperience = 3;
 ?>

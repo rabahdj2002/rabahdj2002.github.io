@@ -89,13 +89,13 @@
 							Introduce Myself
 						</h2>
 						<p>
-							My name is Rabah Djebbes And I am a Python/Django developer, I have 3+ years of experience in relation to Python/Django Back-end Development.
+							My name is Rabah Djebbes And I am a Python/Django developer, I have <?php echo $yearsOfExperience ?>+ years of experience in relation to Python/Django Back-end Development.
 						</p>
 						<p>
 							Spoken Languages :<br>
-                            - English.<br>
-                            - Arabic.<br>
-                            - French.<br>
+                            - English. ★★★★★<br>
+                            - Arabic.  ★★★★★<br>
+                            - French.  ★★★★<br>
 						</p>
 						<a class="primary_btn" href="https://rabahdjebbes.me/resume.pdf" target="_blank"><span>Download RESUME</span></a>
 					</div>
@@ -114,14 +114,21 @@
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="img/brands/logo1.png" alt="">
+									<img src="img/brands/word.png" alt="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="img/brands/logo2.png" alt="">
+									<img src="img/brands/excel.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo1.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -136,13 +143,6 @@
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
 									<img src="img/brands/logo4.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo5.png" alt="">
 								</div>
 							</div>
 						</div>
@@ -170,7 +170,7 @@
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-brand-item d-table">
 								<div class="d-table-cell text-center">
-									<img src="img/brands/logo9.png" alt="">
+									<!--<img src="img/brands/logo9.png" alt=""> -->
 								</div>
 							</div>
 						</div>
@@ -179,7 +179,7 @@
 				<div class="offset-lg-2 col-lg-4 col-md-6">
 					<div class="client-info">
 						<div class="d-flex mb-50">
-							<span class="lage">3+</span>
+							<span class="lage"><?php echo $yearsOfExperience ?>+</span>
 							<span class="smll">Years <br>Of<br> Experience</span>
 						</div>
 						<div class="call-now d-flex">
