@@ -96,8 +96,28 @@
       <div class="container">
         <p class="eyebrow">// featured projects</p>
         <h2>From sensor to dashboard.</h2>
-        <p class="section-lead">Hardware, control and software in the same project. Each one links to its source code.</p>
+        <p class="section-lead">Hardware, control and software in the same project. Each one links to source, docs or a live demo.</p>
         <div class="projects">
+          <article class="project reveal">
+            <div class="project-media"><img src="assets/img/robotarm.png" alt="Robot arm simulator viewport showing a 6-DOF arm reaching toward an IK target with live DOF and end-effector HUD" loading="lazy" width="1440" height="810"></div>
+            <div class="project-body">
+              <span class="badge">Robotics · live demo</span>
+              <h3>Robot Arm Kinematics Simulator</h3>
+              <p>A browser simulator for arbitrary serial robot arms. Build any chain of revolute and prismatic joints, edit Denavit–Hartenberg parameters live, and solve inverse kinematics against floor and self-collision limits — pure front-end, real time.</p>
+              <ul>
+                <li>Numerical IK: damped least-squares + CCD restarts that pick a collision-free branch</li>
+                <li>Capsule/sphere collision engine — sliders bisect to contact, invalid solutions rejected</li>
+                <li>Framework-free math core covered by 50 Node unit tests, zero-build GitHub Pages deploy</li>
+              </ul>
+              <ul class="tags"><li>JavaScript</li><li>three.js</li><li>Kinematics</li><li>ES modules</li></ul>
+              <div class="links">
+                <a href="https://rabahdj2002.github.io/robot-arm-sim/" target="_blank" rel="noopener"><svg><use href="#i-ext"/></svg>Live demo</a>
+                <a href="https://rabahdj2002.github.io/robot-arm-sim-docs/" target="_blank" rel="noopener"><svg><use href="#i-doc"/></svg>Docs</a>
+                <a href="https://github.com/rabahdj2002/robot-arm-sim" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg>Code</a>
+                <a href="https://github.com/rabahdj2002/robot-arm-sim/tree/main/tests" target="_blank" rel="noopener"><svg><use href="#i-doc"/></svg>Tests</a>
+              </div>
+            </div>
+          </article>
           <article class="project reveal">
             <div class="project-media"><img src="assets/img/classroom.webp" alt="Smart Classroom dashboard with live occupancy and session charts" loading="lazy" width="1440" height="810"></div>
             <div class="project-body">
